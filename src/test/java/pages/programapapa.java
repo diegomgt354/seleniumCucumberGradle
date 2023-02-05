@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
-
+// clase de prueba en java, no tiene que ver con el proyecto
 public class programapapa {
     public static void main(String[] args) {
         // listas
