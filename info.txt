@@ -86,3 +86,15 @@ Dependency inversion principle --> Principio de inversión de dependencias
 
 
 scm --> Source Control Management (Manejo de repositorios remotos, locales)
+
+GIT.- Es un software de control de versiones diseñado por Linus Torvalds, pensando en una eficiencia y la confiabilidad del 
+mantenimiento de versiones de aplicaciones cuando estas tienen un gran numero de archivos de codigo fuente.
+Es trabajar con un repositorio. En el cual se almacenan nuestros archivos. Hay 2 tipos de repositorios el local y el remoto.
+La rama de Git es un espacio dentro del repositorio donde se almacena nuestros archivos. Por defecto en Git, la rama principal 
+se llama origin master.
+
+configurar email -> git config --global user.email "idatazo@gmail.com"
+configurar name -> git config --global user.name "diegomgt"
+verificar que los datos fueron guardados -> git config --global -e
+verificar que los datos fueron guardados nos muestra en consola -> git config --global -l
+nos muestra la configuracion de git -> git config --list
