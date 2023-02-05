@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+
+group 'CursoUdemy'
+version '1.0-SNAPSHOP'
+
+sourceCompatibility = 17
+
+repositories {
+    mavenCentral() // repositorio de librerias, el mas conocido, el que mas se usa
+    // artifactory hace un mirror(espejo) de maven central para la empresa
+}
+
+dependencies{
+
+    // https://mvnrepository.com/artifact/junit/junit
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.7.2'
+
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.11.0'
+
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.11.0'
+
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.5'
+
+    // https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter
+    implementation group: 'tech.grasshopper', name: 'extentreports-cucumber7-adapter', version: '1.7.0'
+
+
+}
+
+test{
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
+}
+
+// gradle test -Dcucumber.options="--tags @Search"
+// gradle test -Dcucumber.options="--tags @Google, --tags @Search"

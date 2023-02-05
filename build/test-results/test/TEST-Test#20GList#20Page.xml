@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test GList Page" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-01-21T03:12:55" hostname="LAPTOP-QRD68GHG" time="8.463">
+  <properties/>
+  <testcase name="Search in list #1" classname="Test GList Page" time="4.225"/>
+  <testcase name="Search in list #2" classname="Test GList Page" time="2.248"/>
+  <testcase name="Search in list #3" classname="Test GList Page" time="1.99"/>
+  <system-out><![CDATA[PASSED - 'Spokane, Washington' is on the list.
+PASSED - 'El Paso, Texas' is on the list.
+PASSED - 'Fort Pierce, Florida' is on the list.
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 55945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ene. 20, 2023 10:12:57 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

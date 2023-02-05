@@ -1,0 +1,88 @@
+Selenium WebDriver -> conjunto de IP opensource (fuente abierta) que podemos usar para hacer acciones de aplicaciones Web
+Selenium IDE -> es una extención para el browser para poder grabar acciones
+
+IDE -> Integrated Development Environment (Entorno de desarrollo integrado)
+
+
+Java Developer Kit -> JDK. Nos permite crear la aplicación en Java.
+Java Virtual Machine -> JVM. Se encarga de ejecutar las aplicaciones en JAVA.
+Java Runtime Environment -> JRE. Se tiene en la computadora y es lo que crea el JVM.
+
+JDK crea la aplicación que sera ejecutada por JVM que es creada por JRE.
+
+Configuración de Gradle y WebDriver:
+-> Instalen VS Code.
+-> Descarguen Chromedriver de la página oficial.
+-> Descarguen el JDK 15 de la página oficial de Oracle y ejecuten el instalador.
+-> Instalen las extensiones "Gradle Language Support", Gradle Tasks en VSCode("Gradle for Java"), "Gradle Extension Pack" y "Extension Pack for Java"
+
+Cucumber -> Extenciones VSCode: "Cucumber (Gherkin) Full Support", "Snippets and Syntax Highlight for Gherkin (Cucumber)"
+            Cucumber no es una herramienta de automatización, es una herramienta para colaborar y asi todos esten al tanto de
+            que se esta probando y sirve como una documentación viva de la aplicacion, sirve mucho para los reportes.
+
+
+Gradle      -> Gestor de dependencias y building tool (herramienta de construcción)
+            Se encarga de resolver dependencias, Trae e instala librerias que ya existen
+            facilitando nuestro trabajo.
+
+Dependencia (liibreria)     -> Codigo que alguien mas ya hizo y lo hizo publico, simplificando la manera en que llo usamos
+Framework                   -> Compuesto de varias librerias.
+libreria                    -> Pedasos de herramientas que ya alguien hizo por nosotros y no tiene sentido que nosotros 
+                            y no tiene sentido que gastemos tiempo en hacer algo que ya esta hecho, funciona bien y hay 
+                            un monton de personas usandolo. Podemos usarlo ahorrado tiempo.
+
+Para la instalación de Gradle:
+
+-> Descargan Gradle de la página oficial.
+-> Añadimos C:\gradle\bin a la variable PATH de variables de entorno.
+
+Validar si tenemos la version de Java adecuada:
+-> Ctrl+Shift+P "Java: Configure Java Runtime" 
+(Si no encuentras esta opción: Me voy a la URL (https://code.visualstudio.com/docs/languages/java) de 
+Java in Visual Studio Code, y te instala automáticamente la extensión de Java en Vs Code)
+o instalo desde extenciones "Extension Pack for Java" (o en el navegador "vscode:extension/vscjava.vscode-java-pack"
+
+Crear Proyecto de Java:
+-> Ctrl+Shift+P "Java: Create Java Proyect" - no build tools
+
+Crear Proyecto de Java - Gradle:
+-> Ctrl+Shift+P "Java: Create Java Proyect" - Gradle - carpeta - Groovy
+
+-> Clean Java Language Server Workspace -- Levanta el proyecto java 
+-> Configure Java Runtime
+
+Comandos Gradle:
+-> gradle clean
+-> gradle build
+
+
+
+Business Facing(Your Proyect -> Features -> Scenario -> Steps) -> Technology Facing(Step Definitions -> Support Code -> Automation Library -> Your System)
+
+
+POM -> Page Object Model: Patron de diseño
+
+WebElement -> es todo lo que esta presente en la pagina Web
+
+css:
+id[id=name]
+label[class=nuevaentrada1]
+#submit
+.clasenueva
+#id="submit"
+
+
+Encapsulamiento  -->
+La herencia   -->
+La abstraccion  -->
+El polimorfismo  -->
+
+Principios SOLID:
+Single responsibility principle --> Principio de responsabilidad única
+Open-closed principle --> Principio de abierto-cerrado
+Liskov substitution principle --> Principio de sustitución de Liskov
+Interface segregation principle --> Principio de segregación de interfaces
+Dependency inversion principle --> Principio de inversión de dependencias
+
+
+scm --> Source Control Management (Manejo de repositorios remotos, locales)
