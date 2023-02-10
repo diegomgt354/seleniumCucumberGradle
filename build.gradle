@@ -31,6 +31,12 @@ dependencies{
     // https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter
     implementation group: 'tech.grasshopper', name: 'extentreports-cucumber7-adapter', version: '1.7.0'
 
+    // https://mvnrepository.com/artifact/org.apache.poi/poi
+    // versiones excel del 1997 al 2003
+    implementation group: 'org.apache.poi', name: 'poi', version: '5.2.3'
+    // versiones excel mas 
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.3'
 
 }
 

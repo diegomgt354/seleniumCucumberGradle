@@ -60,6 +60,7 @@ public class programapapa {
         // menejo de errores
         try {
             int data = 50/0;
+            System.out.println(data);
         } catch (ArithmeticException e) {
             System.out.println("error aritmetico: "+e.fillInStackTrace());
         }catch (Exception e) {
