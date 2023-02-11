@@ -1,4 +1,4 @@
-package pages;
+package seleniumTest;
 
 import java.io.File;
 import java.io.FileInputStream;
