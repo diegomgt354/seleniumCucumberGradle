@@ -1,4 +1,4 @@
-package pages;
+package javaTest;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
@@ -50,7 +50,7 @@ public class programapapa {
         System.out.println(diccionario);
         diccionario.remove("Uruguay");
         System.out.println(diccionario);
-
+        
         for (Map.Entry<String, String> entry : diccionario.entrySet()) {
             final String valorActual = entry.getValue();
         
