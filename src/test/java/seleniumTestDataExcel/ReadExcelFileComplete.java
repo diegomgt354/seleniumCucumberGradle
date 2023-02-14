@@ -1,4 +1,4 @@
-package seleniumTest;
+package seleniumTestDataExcel;
 
 import java.io.File;
 import java.io.FileInputStream;
