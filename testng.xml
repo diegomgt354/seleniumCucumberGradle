@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <parameter name="URL" value="https://www.google.com/" />
+
+    <test name="Test on Chrome">
+        <parameter name="BrowserType" value="Chrome" />
+         <classes>
+             <class name="multiplesNavegadoresTestNG.multipleBrowser"/>
+          </classes>
+     </test>
+
+     <test name="Test on Firefox">
+        <parameter name="BrowserType" value="Firefox" />
+         <classes>
+             <class name="multiplesNavegadoresTestNG.multipleBrowser"/>
+          </classes>
+     </test>
+
+     <test name="Test on Edge">
+        <parameter name="BrowserType" value="Edge" />
+         <classes>
+             <class name="multiplesNavegadoresTestNG.multipleBrowser"/>
+          </classes>
+     </test>
+
+    <!-- aun no puedo configurarlo en vscode pero en eclipse si se puede XD -->
+
+</suite>
+
+<!-- suite -> uno o mas test
+test -> uno o mas clases
+clase -> uno o mas metodos -->
