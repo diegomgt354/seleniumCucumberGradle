@@ -98,3 +98,16 @@ configurar name -> git config --global user.name "diegomgt"
 verificar que los datos fueron guardados -> git config --global -e
 verificar que los datos fueron guardados nos muestra en consola -> git config --global -l
 nos muestra la configuracion de git -> git config --list
+
+
+API -> es una interface hecha para programas, como un tomacorriente que es un interface entre la anergia y el aparato que le enchufe, 
+no sabemos de donde viene la energia electrica pero se produce la conexion, o es un mesero que te trae el pedido desde la cosina.
+
+Request -> pedido 
+Responce -> respuesta
+EndPoint -> es una URI(Universal Resource Identifier), punto final
+lugar donde nos esta dirigiendo para hacer el request 
+
+
+
+
